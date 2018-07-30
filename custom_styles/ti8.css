@@ -1,0 +1,43 @@
+/* background-color: #192023;*/
+
+#header-image {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('assets/ti/header-ti8.jpg');
+}
+
+
+table.list td, table.pvp td {
+    background-color: #243923;
+}
+
+table.list .thead {
+    background-color: #3d523e !important;
+}
+
+table.pvp tr td:first-child {
+  background-color: #3d523e !important;
+}
+table.pvp .thead th  {
+  background-color: #3d523e !important;
+}
+
+.section-header h2 {
+	color: #fff;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.section-header h3 {
+	color: #fff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.content-section .content-header {
+	background-color: #3d523e;
+}
+
+.team-card .team-name, .player-card .player-name {
+  background-color: #3d523e;
+}
+
+.player-card .player-team {
+  background-color: #3d523f;
+}

@@ -1,0 +1,4 @@
+#image-logo  {
+  background-image: url("../assets/ti/logo.png");
+  background-size: contain;
+}
