@@ -5,8 +5,11 @@
 }
 
 
-table.list td, table.pvp td {
+table.list td {
     background-color: #243923;
+}
+table.pvp td {
+  background-color: rgba(127,127,127,0.3);
 }
 
 table.list .thead {
