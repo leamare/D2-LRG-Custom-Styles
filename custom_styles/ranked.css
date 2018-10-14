@@ -1,43 +1,28 @@
-/* background-color: #192023;*/
+html {
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #fff;
+  --section-header-h3: #fff;
+  --content-header: #52483d;
+  --modal-header: #fff;
+  --modal-text: #fff;
+  --table-bg: #393123;
+  --table-thead-bg: #52483d;
+  --tagslist-bg: #393123;
+  --tagslist-bg-hover: #52483d;
+  --tagslist-active: #785f43;
+  --name-bg: #52483d;
+  --subname-bg: #52483d;
+}
 
 #header-image {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('assets/ranked/header.jpg');
 }
 
-
-table.list td, table.pvp td {
-    background-color: #393123;
-}
-
-table.list .thead {
-    background-color: #52483d !important;
-}
-
-table.pvp tr td:first-child {
-  background-color: #52483d !important;
-}
-table.pvp .thead th  {
-  background-color: #52483d !important;
-}
-
 .section-header h2 {
-	color: #fff;
   text-shadow: 2px 2px 3px #000000;
 }
 
 .section-header h3 {
-	color: #fff;
   text-shadow: 1px 1px 1px #000000;
-}
-
-.content-section .content-header {
-	background-color: #52483d;
-}
-
-.team-card .team-name, .player-card .player-name {
-  background-color: #52483d;
-}
-
-.player-card .player-team {
-  background-color: #52483d;
 }

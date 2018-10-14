@@ -1,9 +1,30 @@
-/* background-color: #192023;*/
+html {
+  --body-bg: #0a0a0a;
+  --selector-link: #fff;
+  --selector-bg: #ff015b;
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #9b92bb;
+  --section-header-h3: #7a7293;
+  --content-header: #483d52;
+  --content-text-overview: #fff;
+  --section-border: #464646;
+  --selectors-bg: #2d2339;
+  --nav-item: #cecece;
+  --modal-content-bg: #483d52;
+  --table-bg: #2d2339;
+  --table-thead-bg: #483d52;
+  --table-thead-text: #fff;
+  --tagslist-bg: #2d2339;
+  --tagslist-bg-hover: #5a1941;
+  --tagslist-active: #483d52;
+  --name-bg: #483d52;
+  --subname-bg: #403d52;
+}
 
 #header-image {
   background-image: url('assets/esl-one/header.jpg');
 }
-
 .content-section {
     background-image: url('assets/esl-one/bg.jpg');
     background-size: cover;
@@ -11,67 +32,17 @@
     background-attachment: fixed;
 }
 
-.select-selectors {
-    background: #2d2339;
-    color: #fff;
-}
-
 .selector-modules , .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4,
 .selector-modules-level-5, .selector-modules-level-6, .selector-modules-level-7 {
-    color: #ff015b;
     line-height: 32px;
 }
 .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4, .selector-modules-level-5,
 .selector-modules-level-6, .selector-modules-level-7 {
-    border-top-color: #ff015b;
+    border-top-color: var(--selector-bg);
 }
 .content-cards .match-card, .content-cards .player-card {
-  border-bottom-color: #ff015b;
+  border-bottom-color: var(--selector-bg);
 }
-
-table.list td, table.pvp td {
-    background-color: #2d2339;
-}
-
-table.list .thead {
-    background-color: #483d52 !important;
-}
-
-table.pvp tr td:first-child {
-  background-color: #463d52 !important;
-}
-table.pvp .thead th  {
-  background-color: #403d52 !important;
-}
-
-.section-header h2 {
-	color: #9b92bb;
-}
-
-.section-header h3 {
-	color: #7a7293;
-}
-
-.content-section .content-header {
-	background-color: #483d52;
-}
-
-
-.modal-content {
-    background-color: #483d52;
-}
-.modal-text {
-    color: #fff;
-}
-.modal-sublevel {
-    color: #fff;
-    background-color: #7a7293;
-}
-.modal-header {
-    color: #fff;
-    background-color: #2d2339;
-}
-
 table.list, table.pvp {
     border: 1px solid transparent;
 }
@@ -82,12 +53,4 @@ table.list td, table.pvp td {
 }
 table.list tr:hover td, table.pvp tr:hover td {
     background-color: #5a1941;
-}
-
-.team-card .team-name, .player-card .player-name {
-  background-color: #483d52;
-}
-
-.player-card .player-team {
-  background-color: #403d52;
 }

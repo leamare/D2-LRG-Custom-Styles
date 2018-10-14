@@ -1,4 +1,23 @@
-/* background-color: #192023;*/
+html {
+  --body-bg: #0a0a0a;
+  --selector-link: #fff;
+  --selector-bg: #00A2E4;
+  --section-header: #090909;
+  --section-header-h1: #35dcf9;
+  --section-header-h2: #20aff2;
+  --section-header-h3: #0c85ea;
+  --content-header: #005685;
+  --content-text-overview: #fff;
+  --modal-content-bg: #005685;
+  --table-bg: #232d39;
+  --table-thead-bg: #005685;
+  --table-thead-text: #fff;
+  --tagslist-bg: #232d39;
+  --tagslist-bg-hover: #193c5c;
+  --tagslist-active: #005685;
+  --name-bg: #005685;
+  --subname-bg: #1f3359;
+}
 
 #header-image {
   background-image: url('assets/captains-draft/header.jpg');
@@ -7,45 +26,28 @@
   background-repeat: no-repeat;
   background-size: auto;
 }
-
 .section-header h1 {
-    padding-top: 190px;
-    font-size: 40px;
-    color: #35dcf9;
+  padding-top: 190px;
+  font-size: 40px;
 }
 .section-header h2 {
   margin-top: 0px;
 }
-
 .content-section {
-    background-image: url('assets/captains-draft/bg.jpg');
-    background-repeat: repeat;
-}
-
-.select-selectors {
-    background: #232d39;
-    color: #fff;
+  background-image: url('assets/captains-draft/bg.jpg');
+  background-repeat: repeat;
 }
 
 .selector-modules , .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4,
 .selector-modules-level-5, .selector-modules-level-6, .selector-modules-level-7 {
-    color: #00A2E4;
-    line-height: 32px;
+  line-height: 32px;
 }
 .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4, .selector-modules-level-5,
 .selector-modules-level-6, .selector-modules-level-7 {
-    border-top-color: #00A2E4;
+  border-top-color: var(--selector-bg);
 }
 .content-cards .match-card, .content-cards .player-card {
-  border-bottom-color: #00A2E4;
-}
-
-table.list td, table.pvp td {
-    background-color: #232d39;
-}
-
-table.list .thead {
-    background-color: #005685 !important;
+  border-bottom-color: var(--selector-bg);
 }
 
 table.pvp tr td:first-child {
@@ -54,35 +56,6 @@ table.pvp tr td:first-child {
 table.pvp .thead th  {
   background-color: #1f3359 !important;
 }
-
-.section-header h2 {
-	color: #20aff2;
-}
-
-.section-header h3 {
-	color: #0c85ea;
-}
-
-.content-section .content-header {
-	background-color: #005685;
-}
-
-
-.modal-content {
-    background-color: #005685;
-}
-.modal-text {
-    color: #fff;
-}
-.modal-sublevel {
-    color: #fff;
-    background-color: #476194;
-}
-.modal-header {
-    color: #fff;
-    background-color: #232d39;
-}
-
 table.list, table.pvp {
     border: 1px solid transparent;
 }
@@ -95,18 +68,10 @@ table.list tr:hover td, table.pvp tr:hover td {
     background-color: #193c5c;
 }
 
-.team-card .team-name, .player-card .player-name {
-  background-color: #005685;
-}
-
-.player-card .player-team {
-  background-color: #1f3359;
-}
-
 .selector.active {
-    text-decoration: none;
-    border-bottom: 3px solid #00A2E4;
-    padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid #00A2E4;
+  padding-bottom: 5px;
 }
 .selector {
   padding: 0;

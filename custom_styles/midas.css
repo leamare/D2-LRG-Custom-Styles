@@ -1,92 +1,49 @@
-/* background-color: #192023;*/
+html {
+  --text: #edd8d8;
+  --body-bg: #0a0a0a;
+  --selector-link: #fff;
+  --selector-bg: #ffd057;
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #e3b641;
+  --section-header-h3: #e3b641;
+  --content-header: #cda01f;
+  --content-text-overview: #fff;
+  --modal-content-bg: #7e313d;
+  --table-bg: #4e1c37;
+  --table-thead-bg: #7e313d;
+  --tagslist-bg: #4e1c37;
+  --tagslist-bg-hover: #7e313d;
+  --tagslist-active: #cda01f;
+  --name-bg: #7e313d;
+  --subname-bg: #7b2031;
+}
 
 #header-image {
   background-image: url('assets/midas/header.jpg');
     box-shadow: black 0 0 50px 6px;
     position: relative;
 }
-
 .content-section {
     background-image: url('assets/midas/bg.png');
     background-repeat: repeat;
-}
-.content-text {
-  color:#edd8d8;
-}
-.content-cards, .content-text h1, .content-cards h1 {
-  color:#edd8d8;
 }
 table.list caption, table.pvp caption, .team-name {
   color: #fff;
 }
 
-table.list td, table.pvp td {
-    background-color: #4e1c37;
-}
-
-table.list .thead {
-    background-color: #7e313d !important;
-}
-
-table.pvp tr td:first-child {
-  background-color: #7b2031 !important;
-}
-table.pvp .thead th  {
-  background-color: #7b2031 !important;
-}
-
-
 .selector-modules , .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4,
 .selector-modules-level-5, .selector-modules-level-6, .selector-modules-level-7 {
-    color: #ffd057;
-    line-height: 32px;
+  line-height: 32px;
 }
 .selector-modules-sublevel , .selector-modules-level-3 , .selector-modules-level-4, .selector-modules-level-5,
 .selector-modules-level-6, .selector-modules-level-7 {
-    border-top-color: #ffd057;
+  border-top-color: var(--selector-bg);
 }
 .content-cards .match-card, .content-cards .player-card {
-  border-bottom-color: #8a702d;
+  border-bottom-color: var(--selector-bg);
 }
 
-
-.section-header h1 {
-	display: none;
-}
 .section-header h2 {
-	color: #e3b641;
-    padding-top: 360px;
-}
-
-.section-header h3 {
-	color: #e3b641;
-}
-
-.content-section .content-header {
-	background-color: #cda01f;
-  color: #fff;
-}
-
-
-.modal-content {
-    background-color: #7e313d;
-}
-.modal-text {
-    color: #fff;
-}
-.modal-sublevel {
-    color: #fff;
-    background-color: #b13c70;
-}
-.modal-header {
-    color: #fff;
-    background-color: #4e1c37;
-}
-
-.team-card .team-name, .player-card .player-name {
-  background-color: #7e313d;
-}
-
-.player-card .player-team {
-  background-color: #7b2031;
+  padding-top: 360px;
 }
