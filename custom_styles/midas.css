@@ -44,6 +44,9 @@ table.list caption, table.pvp caption, .team-name {
   border-bottom-color: var(--selector-bg);
 }
 
+.section-header h1 {
+  display:none;
+}
 .section-header h2 {
   padding-top: 360px;
 }

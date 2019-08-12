@@ -51,6 +51,10 @@ table.list td, table.pvp td {
     border-top: 1px solid transparent;
     opacity: 0.6;
 }
+table.list tr.highlighted td {
+  background-color: #40113d;
+}
+
 table.list tr:hover td, table.pvp tr:hover td {
     background-color: #5a1941;
 }
