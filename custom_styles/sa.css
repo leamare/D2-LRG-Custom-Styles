@@ -15,12 +15,35 @@ html {
   --name-bg: #483d52;
   --subname-bg: #403d52;
   --selectors-bg: #2d2339;
+  --body-bg: #000;
 }
 
 #header-image {
-  background-image: url('assets/spectral/header.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.55)), url('assets/spectral/header2.jpg');
 }
 
 .content-section {
-    background-image: url('assets/spectral/bg.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #000 0%, #140d17 25%, #180e1b 50%, #140d17 75%, #000 100%);
+}
+
+.section-header { height: auto; padding: 60px; }
+
+.section-header h1 { padding: 0; }
+
+.ads-block-report {
+  position: absolute;
+  top: 160px;
+  left: 4px;
+}
+
+.section-header .league-banner {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  bottom: 60px;
+  z-index: 0;
+  opacity: 0.75;
+  /* height: 100%; */
+  /* -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0.4));
+  mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,1) 30%, rgba(0,0,0,0.4)); */
 }
