@@ -1,0 +1,46 @@
+html {
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #92bbb7;
+  --section-header-h3: #72938f;
+  --content-header: #3d5251;
+  --modal-header: #fff;
+  --modal-content-bg: #286543;
+  --modal-text: #92bbb7;
+  --table-bg: #233339;
+  --table-thead-bg: #3d5251;
+  --tagslist-bg: #233339;
+  --tagslist-bg-hover: #3d5251;
+  --tagslist-active: #92bbb7;
+  --name-bg: #3d5251;   
+  --subname-bg: #3d5251;
+  --text: #afcac5;
+  --table-text: #ecf8f3;
+  --link: #f2faf7;
+  --body-bg: #000;
+  --caption: #ecf8f6;
+}
+
+#header-image {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('assets/pro-circuit/dpc_transparent_green.png');
+  background-color: #232c2a;
+  background-size: auto;
+}
+
+.section-header { height: auto; padding: 120px; }
+
+.section-header .league-banner { top: 118px; bottom: 118px; }
+
+.section-header h1 { padding: 0; }
+
+.section-header h2 {
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.section-header h3 {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.content-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #121312 0%, #1b1f1f 25%, #262b2a 50%, #1b1f1f 75%, #121312 100%);
+}
