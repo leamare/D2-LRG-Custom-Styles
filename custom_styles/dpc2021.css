@@ -1,30 +1,30 @@
 html {
   --section-header: #090909;
   --section-header-h1: #fff;
-  --section-header-h2: #b4a794;
-  --section-header-h3: #8f8372;
-  --content-header: #52483d;
-  --selectors-bg: #52483d;
+  --section-header-h2: #b8958b;
+  --section-header-h3: #9c7464;
+  --content-header: #613a30;
+  --selectors-bg: #613a30;
   --modal-header: #fff;
-  --modal-text: #b4a794;
-  --modal-content-bg: #232220;
-  --table-bg: #332f29;
-  --table-thead-bg: #574b3c;
-  --tagslist-bg: #393123;
-  --tagslist-bg-hover: #52483d;
-  --tagslist-active: #6d5d49;
-  --name-bg: #52483d;
-  --subname-bg: #52483d;
-  --text: #cabfaf;
-  --table-text: #f8f4ec;
-  --link: #faf7f2;
+  --modal-text: #b8958b;
+  --modal-content-bg: #232120;
+  --table-bg: #2b2424;
+  --table-thead-bg: #4d332d;
+  --tagslist-bg: #392923;
+  --tagslist-bg-hover: #613a30;
+  --tagslist-active: #6d5049;
+  --name-bg: #613a30;
+  --subname-bg: #613a30;
+  --text: #cab7af;
+  --table-text: #f8f0ec;
+  --link: #faf4f2;
   --body-bg: #000;
-  --caption: #f8f4ec;
+  --caption: #f8f0ec;
 }
 
 #header-image {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4)), url('assets/pro-circuit/dpc2021_transparent.png');
-  background-color: #24211d;
+  background-color: #291b16;
   background-size: auto;
 }
 
@@ -43,5 +43,5 @@ html {
 }
 
 .content-section {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #141311 0%, #161514 25%, #20201e 50%, #161514 75%, #141311 100%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #0f0a08 0%, #221611 25%, #2c1a16 50%, #221611 75%, #0f0a08 100%);
 }
