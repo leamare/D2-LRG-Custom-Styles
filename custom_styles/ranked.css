@@ -3,26 +3,40 @@ html {
   --section-header-h1: #fff;
   --section-header-h2: #fff;
   --section-header-h3: #fff;
-  --content-header: #52483d;
+  --content-header: #6e4b26;
   --modal-header: #fff;
   --modal-text: #fff;
-  --table-bg: #393123;
-  --table-thead-bg: #52483d;
-  --tagslist-bg: #393123;
+  --table-bg: #3a2b1f;
+  --table-thead-bg: #5a4229;
+  --tagslist-bg: #3a2b1f;
   --tagslist-bg-hover: #52483d;
   --tagslist-active: #785f43;
   --name-bg: #52483d;
   --subname-bg: #52483d;
+  --body-bg: #000;
 }
 
 #header-image {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('assets/ranked/header.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('assets/ranked/immranked_nova.png');
+  background-color: #361f16;
+  background-size: auto;
+}
+
+.section-header { height: auto; padding: 120px; }
+
+.section-header h1 {
+  padding: 0;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
 }
 
 .section-header h2 {
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: 0 0 3px #000000, 0 0 3px #000000;
 }
 
 .section-header h3 {
   text-shadow: 1px 1px 1px #000000;
+}
+
+.content-section {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #0f0b08 0%, #1b120b 25%, #221813 50%, #1b120b 75%, #0f0b08 100%);
 }
