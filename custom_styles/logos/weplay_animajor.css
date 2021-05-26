@@ -1,0 +1,10 @@
+#image-logo  {
+  background-image: url("../assets/weplay/animajor.png");
+  background-size: contain;
+  height: 315px;
+}
+
+.section-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

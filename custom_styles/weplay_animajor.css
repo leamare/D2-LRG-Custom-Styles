@@ -1,0 +1,50 @@
+html {
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #fff;
+  --section-header-h3: #fff;
+  --content-header: #1d81a5;
+  --modal-header: #fff;
+  --modal-text: #fff;
+  --table-bg: #0e2c52;
+  --table-thead-bg: #12548a;
+  --tagslist-bg: #12456e;
+  --tagslist-bg-hover: #2e74ad;
+  --tagslist-active: #ff1967; /* #2e74ad */
+  --name-bg: #2b5175;
+  --subname-bg: #163761;
+  --body-bg: #000;
+
+  --content-bg: #101e2f;
+  --selectors-bg: #1a5586;
+  --modal-content-bg: #143766;
+}
+
+#header-image {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('assets/weplay/header.jpg');
+  background-color: #361f16;
+  background-size: cover;
+}
+
+.section-header { height: auto; padding: 120px; }
+
+.section-header h1 {
+  padding: 0;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
+}
+
+.section-header h2 {
+  text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
+
+.section-header h3 {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.content-section {
+  background-size: contain, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-image: url('assets/weplay/bg.png'), linear-gradient(to left, #010a1d 0%, #010b1f 25%, #010e28 50%, #010b1f 75%, #010a1d 100%);
+}
