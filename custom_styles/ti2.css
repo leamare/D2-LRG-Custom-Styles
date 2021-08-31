@@ -1,0 +1,24 @@
+html {
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #92a8bb;
+  --section-header-h3: #728393;
+  --content-header: #374250;
+  --modal-header: #fff;
+  --modal-text: #fff;
+  --table-bg: #232d39;
+  --table-thead-bg: #374250;
+  --tagslist-bg: #232d39;
+  --tagslist-bg-hover: #374250;
+  --tagslist-active: #728393;
+  --name-bg: #374250;
+  --subname-bg: #374250;
+}
+
+#header-image {
+  background-image: linear-gradient(rgb(13, 41, 83), rgb(4, 35, 53));
+}
+
+.content-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #080b0f 0%, #111722 25%, #161f2c 50%, #111722 75%, #080b0f 100%);
+}
