@@ -19,3 +19,7 @@ html {
 #header-image {
   background-image: url('assets/pro-circuit/header.jpg');
 }
+
+.content-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #080f0e 0%, #121b1d 25%, #1b2529 50%, #121b1d 75%, #080f0e 100%);
+}

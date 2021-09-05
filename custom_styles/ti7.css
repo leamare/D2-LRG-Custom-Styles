@@ -18,3 +18,7 @@ html {
 #header-image {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('assets/ti/header-ti7.jpg');
 }
+
+.content-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 90%, #000 100%), linear-gradient(to left, #080f0e 0%, #111f22 25%, #16272c 50%, #111f22 75%, #080f0e 100%);
+}
