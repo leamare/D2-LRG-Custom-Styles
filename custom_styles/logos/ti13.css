@@ -1,0 +1,5 @@
+#image-logo  {
+  background-image: url("../assets/ti/logo_ti13.png");
+  filter: drop-shadow(0 0 0.25em black) drop-shadow(0 0 1em black);
+  background-size: contain;
+}
