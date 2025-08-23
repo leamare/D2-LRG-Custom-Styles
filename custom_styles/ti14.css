@@ -1,0 +1,38 @@
+html {
+  --section-header: #090909;
+  --section-header-h1: #fff;
+  --section-header-h2: #fff;
+  --section-header-h3: #fff;
+  --content-header: #3c2e61;
+  --modal-header: #fff;
+  --modal-text: #fff;
+  --table-bg: #2a213d;
+  --table-thead-bg: #382b68;
+  --tagslist-bg: #2d2538;
+  --tagslist-bg-hover: #463d52;
+  --tagslist-active: #554471;
+  --name-bg: #3d2e55;
+  --subname-bg: #3e2f61;
+}
+
+#header-image {
+  background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0.9) 100%), url('assets/ti/header-ti14.jpg?1');
+}
+
+.content-section {
+  background-color: #0d0a0f;
+  background-image: linear-gradient(rgba(32, 26, 56, 0.7), rgba(9, 4, 15, 0.95)), url('assets/ti/ti14_bg_alt.jpg?1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+table.pvp td {
+  background-color: rgba(127,127,127,0.3);
+}
+.section-header h2 {
+  text-shadow: 2px 2px 3px #000000;
+}
+.section-header h3 {
+  text-shadow: 1px 1px 1px #000000;
+}
